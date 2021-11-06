@@ -1,0 +1,10 @@
+{
+  "name": "ts-utils-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "scava <sorzesimone1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
