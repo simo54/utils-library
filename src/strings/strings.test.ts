@@ -1,4 +1,4 @@
-import { getFirstName, getLastName } from "./Names";
+import { getFirstName, getLastName } from "./names";
 
 test("Get first Name", () => {
   expect(getFirstName("John Smith")).toBe("John");
