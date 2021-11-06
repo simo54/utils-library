@@ -5,6 +5,7 @@
   "author": "scava <sorzesimone1@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "ts-node": "^10.4.0",
     "typescript": "^4.4.4"
   }
 }
