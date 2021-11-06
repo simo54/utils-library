@@ -3,5 +3,5 @@ export function getFirstName(name: string) {
 }
 
 export function getLastName(name: string) {
-  return name.substr(name.indexOf(" "));
+  return name.slice(name.lastIndexOf(" ") + 1);
 }
