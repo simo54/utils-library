@@ -1,4 +1,5 @@
 import { countWeekendsOfYear } from './functions/countWeekendsOfYear'
+import { countWords } from './functions/countWords'
 import { getExecutionTime } from './functions/getExecutionTime'
 import { getFormattedCurrency } from './functions/getFormattedCurrency'
 import { getFirstName, getLastName } from './functions/getNames'
@@ -13,4 +14,5 @@ export {
   getFirstName,
   getLastName,
   hashInput,
+  countWords,
 }

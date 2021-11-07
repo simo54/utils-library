@@ -1,6 +1,7 @@
 import { getFormattedCurrency } from '../functions/getFormattedCurrency'
 import { hashInput } from '../functions/hashInput'
 import { getFirstName, getLastName } from '../functions/getNames'
+import { countWords } from '../functions/countWords'
 
 test('Get first Name', () => {
   expect(getFirstName('John Smith')).toBe('John')
@@ -20,4 +21,8 @@ test('Get formatted number with currency - DOL', () => {
 
 test('Get word hashed', () => {
   expect(hashInput('ciaone')).toBe(1360711733)
+})
+
+test('Count words', () => {
+  expect(countWords('hi my name is')).toBe(4)
 })
