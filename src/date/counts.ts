@@ -10,5 +10,3 @@ export function countWeekendsOfYear(year: string | number) {
 
   return result.length
 }
-
-console.log(countWeekendsOfYear(2020))
