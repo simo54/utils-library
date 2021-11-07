@@ -1,6 +1,6 @@
-import { getFormattedCurrency } from './getFormattedCurrency'
-import { hashInput } from './hashInput'
-import { getFirstName, getLastName } from './names'
+import { getFormattedCurrency } from '../functions/getFormattedCurrency'
+import { hashInput } from '../functions/hashInput'
+import { getFirstName, getLastName } from '../functions/getNames'
 
 test('Get first Name', () => {
   expect(getFirstName('John Smith')).toBe('John')

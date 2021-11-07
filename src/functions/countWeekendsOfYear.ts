@@ -1,4 +1,4 @@
-import eachWeekendOfYear from 'date-fns/eachWeekendOfYear'
+import { eachWeekendOfYear } from 'date-fns'
 
 export function countWeekendsOfYear(year: string | number) {
   let yearInput = year

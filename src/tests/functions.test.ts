@@ -1,4 +1,4 @@
-import { getExecutionTime } from './getPerformance'
+import { getExecutionTime } from '../functions/getExecutionTime'
 
 test('Get weeks day count', () => {
   expect(
