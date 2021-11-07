@@ -1,1 +1,1 @@
-# ts-utils-library
+# utils-library
