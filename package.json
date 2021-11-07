@@ -1,7 +1,7 @@
 {
   "name": "ts-utils-library",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Utils library",
   "author": "scava <sorzesimone1@gmail.com>",
   "license": "MIT",
   "dependencies": {
