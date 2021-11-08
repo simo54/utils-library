@@ -1,6 +1,10 @@
 import { getFormattedCurrency } from '../functions/getFormattedCurrency'
 import { hashInput } from '../functions/hashInput'
-import { getFirstName, getLastName } from '../functions/getNames'
+import {
+  getFirstName,
+  getInitialFirstAndLastName,
+  getLastName,
+} from '../functions/names'
 import { countWords } from '../functions/countWords'
 
 test('Get first Name', () => {
@@ -25,4 +29,8 @@ test('Get word hashed', () => {
 
 test('Count words', () => {
   expect(countWords('hi my name is')).toBe(4)
+})
+
+test('Get Initials', () => {
+  expect(getInitialFirstAndLastName('John Smith')).toBe('JS')
 })
