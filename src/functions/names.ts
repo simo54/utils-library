@@ -16,5 +16,3 @@ export function getInitialFirstAndLastName(name: string) {
     console.log(error, 'getInitialFirstAndLastName', name)
   }
 }
-
-console.log(getInitialFirstAndLastName('scava mimmo'))

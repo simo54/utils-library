@@ -9,6 +9,7 @@ import {
 } from './functions/names'
 import { getNumbersFromString } from './functions/getNumbersFromString'
 import { hashInput } from './functions/hashInput'
+import { getLocalStorage } from './functions/getLocalStorage'
 
 export {
   getNumbersFromString,
@@ -20,4 +21,5 @@ export {
   hashInput,
   countWords,
   getInitialFirstAndLastName,
+  getLocalStorage,
 }
