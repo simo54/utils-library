@@ -1,5 +1,5 @@
 export function getFirstName(name: string) {
-  return name.substr(0, name.indexOf(' '))
+  return name.slice(0, name.lastIndexOf(' '))
 }
 
 export function getLastName(name: string) {
