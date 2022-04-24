@@ -3103,6 +3103,16 @@ minimatch@^3.0.4:
   dependencies:
     brace-expansion "^1.1.7"
 
+moment-business-days@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/moment-business-days/-/moment-business-days-1.2.0.tgz#6172f9f38dbf443c2f859baabeabbd2935f63d65"
+  integrity sha512-QJlceLfMSxy/jZSOgJYCKeKw+qGYHj8W0jMa/fYruyoJ85+bJuLRiYv5DIaflyuRipmYRfD4kDlSwVYteLN+Jw==
+
+moment@^2.29.3:
+  version "2.29.3"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
+  integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
+
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
