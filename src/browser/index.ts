@@ -1,3 +1,4 @@
+/* eslint-disable */
 // https://developer.mozilla.org/en-US/docs/Web/API/Navigator/
 // getBattery: undefined
 // appCodeName: "Mozilla"
@@ -49,4 +50,3 @@
 // webkitTemporaryStorage: DeprecatedStorageQuota {}
 // xr: XRSystem {ondevicechange: null}
 // [[Prototype]]: Navigator
-export {}
