@@ -31,5 +31,5 @@
     "bundle": "webpack",
     "build": "npx webpack && yarn bundle",
     "prepare": "husky install"
-    }
+  }
 }
