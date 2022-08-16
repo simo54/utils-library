@@ -1,4 +1,4 @@
-import { regexBuilder } from '../regex/regexBuilder'
+import { regexBuilder } from './regexBuilder'
 
 test('Regex test', () => {
     const regex = regexBuilder('test')
